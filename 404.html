@@ -1,4 +1,24 @@
-{% extends "base.html" %} {% block stylesheet %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta >
+    <meta name="keywords" content="achillius, team, SJEC, drive the future, electric, car">
+    <meta name="description" content="We are Team Achillius - a student group under St Joseph Engineering College, Mangalore. Every year, we design and manufacture a solar powered electric vehicle that competes in prestigious national level competitions.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="static/images/White.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="static/css/app.css">
+
+</head>
+
+    <link rel="stylesheet" href="/static/css/app.css">
+    <title>Team Achillius</title>
+<body>
 <style>
     body{
         background-image: url({{stylesheet}});
@@ -6,14 +26,10 @@
         background-position: 40%;
     }
 </style>
-{% endblock %}
-{% block title %}
-Careers
-{% endblock %}
-    {% block content %}
+
     <section id="page-404">
         <div class='darkoverlay'></div>
-        <h2 class="text-404">{{content}}</h2>
+        <h2 class="text-404"></h2>
         <div>
             <h1>Accidents happen.</h1>
             <p>just like this page.</p>
@@ -23,8 +39,9 @@ Careers
             </a>
         </div>
     </section>
+</body>
 <!-- scripts -->
 
-{% endblock %} {% block script %}
+
 <script src="../static/js/script.js"></script>
-{% endblock %}
+
